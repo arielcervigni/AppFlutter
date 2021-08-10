@@ -14,11 +14,11 @@ class HomePage extends StatelessWidget {
         title: Text('Componentes'),
       ),
       body: _lista(),
-
     );
 
   }
 
+  
   Widget _lista() {
 
     return FutureBuilder(
